@@ -1,0 +1,6 @@
+name: XumaK
+baseurl: "/"
+url: "localhost:3000"
+description: Example description
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+excerpt_separator: "\n\n\n"
