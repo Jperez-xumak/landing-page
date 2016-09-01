@@ -16,7 +16,7 @@ gulp.task('browser-sync', ['sass', 'html'], function () {
 gulp.task ('html', function() {
   gulp.src('*.html')
     .pipe(gulp.dest('_site/'))
-    .pipe(browserSync.reload());
+    .pipe(browserSync.reload({stream: true}))
 });
 
 /**
