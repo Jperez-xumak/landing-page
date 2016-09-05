@@ -1,3 +1,19 @@
-header {
-  background: $xumak_blue;
+.navbar {
+  background: white;
+
+  &-content {
+    height: 50px;
+  }
+
+  &-logo {
+    @include vertical-align();
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  &-img {
+    width: 40%;
+    max-width: 150px;
+  }
+
 }

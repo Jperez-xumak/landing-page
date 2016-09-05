@@ -65,8 +65,21 @@ body {
   font-weight: normal;
   font-style: normal; }
 
-header {
-  background: #13426a; }
+.navbar {
+  background: white; }
+  .navbar-content {
+    height: 50px; }
+  .navbar-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    padding-left: 5%; }
+  .navbar-img {
+    width: 40%;
+    max-width: 150px; }
 
 .content {
   margin: 0;
