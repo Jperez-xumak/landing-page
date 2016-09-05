@@ -1,0 +1,57 @@
+.footer {
+
+    &-top {
+      background-color: $xumak_red;
+      ul {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    &-botton {
+      background-color: $xumak_blue;
+      color: $grey;
+      font-family: 'TextaNarrow-Regular';
+      padding: 10px;
+      p {
+        margin: 0;
+        text-align: center;
+      }
+      a {
+        color: #7188a3;
+      }
+      ul {
+        margin-bottom: 10px;
+        padding: 0;
+        text-align: center;
+        li {
+          display: inline;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    &-xumakLogo {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    &-partner {
+      width: 100%;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    &-socialList {
+      margin: 0 auto;
+      width: 255px;
+      li {
+        display: inline-block;
+        margin: 20px 10px 40px;
+      }
+    }
+
+}

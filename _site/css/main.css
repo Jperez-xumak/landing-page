@@ -1,0 +1,111 @@
+/* VENDOR - Default fall-backs and external files.
+========================================================================== */
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; }
+
+@font-face {
+  font-family: "citrix-icons";
+  src: url("../assets/fonts/citrix/citrix-icons.eot");
+  src: url("../assets/fonts/citrix/citrix-icons.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/citrix/citrix-icons.woff") format("woff"), url("../assets/fonts/citrix/citrix-icons.ttf") format("truetype"), url("../assets/fonts/citrix/citrix-icons.svg#citrix-icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "ico";
+  src: url("../assets/fonts/ico/icon.eot");
+  /* IE9*/
+  src: url("../assets/fonts/ico/icon.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/ico/icon.woff") format("woff"), url("../assets/fonts/ico/icon.ttf") format("truetype"), url("../assets/fonts/ico/icon.svg#ico") format("svg");
+  /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HurmeGeometricSans3-Bold';
+  src: url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.eot");
+  src: url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.woff2") format("woff2"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.woff") format("woff"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.ttf") format("truetype"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.svg#HurmeGeometricSans3-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'UrbanGroteskReBo-Italic';
+  src: url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.eot");
+  src: url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.woff2") format("woff2"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.woff") format("woff"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.ttf") format("truetype"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.svg#UrbanGroteskReBo-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GeorgiaPro-Italic';
+  src: url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.eot");
+  src: url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.woff2") format("woff2"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.woff") format("woff"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.ttf") format("truetype"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.svg#GeorgiaPro-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TextaNarrow-Regular';
+  src: url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.eot");
+  src: url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.woff2") format("woff2"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.woff") format("woff"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.ttf") format("truetype"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.svg#TextaNarrow-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Urban-Grotesk-Light';
+  src: url("../assets/fonts/grotesk/Urban Grotesk Light.eot");
+  src: url("../assets/fonts/grotesk/Urban Grotesk Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/grotesk/Urban Grotesk Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'UrbanGroteskLiSe-Regular';
+  src: url("../assets/fonts/grotesk/UrbanGroteskLiSe-Regular.woff") format("woff"), url("../assets/fonts/grotesk/UrbanGroteskLiSe-Regular.ttf") format("truetype"), url("../assets/fonts/grotesk/UrbanGroteskLiSe-Regular.svg#UrbanGroteskLiSe-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+header {
+  background: #13426a; }
+
+.page-content {
+  background: #ececec; }
+
+.footer-top {
+  background-color: #ec0928; }
+  .footer-top ul {
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+.footer-botton {
+  background-color: #13426a;
+  color: #7188a3;
+  font-family: 'TextaNarrow-Regular';
+  padding: 10px; }
+  .footer-botton p {
+    margin: 0;
+    text-align: center; }
+  .footer-botton a {
+    color: #7188a3; }
+  .footer-botton ul {
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center; }
+    .footer-botton ul li {
+      display: inline;
+      margin-left: 20px; }
+.footer-xumakLogo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px; }
+.footer-partner {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px; }
+.footer-socialList {
+  margin: 0 auto;
+  width: 255px; }
+  .footer-socialList li {
+    display: inline-block;
+    margin: 20px 10px 40px; }

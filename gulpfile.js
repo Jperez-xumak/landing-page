@@ -5,7 +5,7 @@ var prefix = require('gulp-autoprefixer');
 var cssmin = require('gulp-minify-css');
 
 
-gulp.task('browser-sync', ['sass', 'html'], function () {
+gulp.task('browser-sync', ['sass', 'html', 'assets'], function () {
   browserSync({
     server: {
       baseDir: '_site'
@@ -16,6 +16,12 @@ gulp.task('browser-sync', ['sass', 'html'], function () {
 gulp.task ('html', function() {
   gulp.src('*.html')
     .pipe(gulp.dest('_site/'))
+    .pipe(browserSync.reload({stream: true}))
+});
+
+gulp.task ('assets', function() {
+  gulp.src('assets/*/**')
+    .pipe(gulp.dest('_site/assets'))
     .pipe(browserSync.reload({stream: true}))
 });
 
@@ -53,6 +59,7 @@ gulp.task('sassmin', function () {
 gulp.task('watch', function () {
   gulp.watch('_sass/**/*', ['sass']);
   gulp.watch('*.html', ['html']);
+  gulp.watch('assets/**/*', ['assets']);
 });
 
 
