@@ -6,8 +6,7 @@
   }
 
   &-logo {
-    @include vertical-align();
-    width: 100%;
+    @include vertical-alignY();
     padding-left: 5%;
   }
 

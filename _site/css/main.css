@@ -5,8 +5,14 @@ body {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  background-color: #ececec;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px; }
+
+input[type=text], input[type=email] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 @font-face {
   font-family: "citrix-icons";
@@ -75,7 +81,6 @@ body {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 100%;
     padding-left: 5%; }
   .navbar-img {
     width: 40%;
@@ -89,7 +94,7 @@ body {
     margin: 0 auto; }
   .content-campaignHeading {
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 20px 0 10px 0; }
   .content-separator {
     background: #333; }
@@ -99,6 +104,55 @@ body {
     font-style: italic;
     font-weight: 300;
     color: #333; }
+
+.forum {
+  margin: 0 auto;
+  width: 90%; }
+  .forum-content {
+    background: white;
+    margin-bottom: 20px; }
+  .forum-title {
+    padding-top: 20px;
+    font-weight: 500;
+    text-align: center; }
+  .forum-imgContent {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .forum-img {
+    width: 16px;
+    margin: 0 0 10px 0; }
+  .forum-form {
+    width: 90%;
+    margin: 0 auto; }
+  .forum-input {
+    width: 100%;
+    padding: 10px 5px 10px 10px;
+    margin: 5px 0;
+    outline: none;
+    color: #7188a3; }
+  .forum-btn {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    background: #ec0928;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .forum-placeholder {
+    width: 90%;
+    padding-bottom: 20px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
 
 .footer-top {
   background-color: #ec0928; }
