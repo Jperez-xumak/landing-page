@@ -5,8 +5,9 @@ body {
   text-decoration: none;
   background-color: #ececec;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: $fontBase;
 }
+
 input[type=text],
 input[type=email] {
     box-sizing : border-box;

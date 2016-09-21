@@ -9,3 +9,16 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+
+@mixin media($media) {
+  @if $media == sm {
+    @media (min-width: $breakpoint-sm) { @content; }
+  }
+  @else if $media == md {
+    @media (min-width: $breakpoint-md) { @content; }
+  }
+  @else if $media == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  }
+}

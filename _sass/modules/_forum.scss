@@ -1,0 +1,91 @@
+.forum {
+    margin: 0 auto;
+    width: 90%;
+    background: white;
+    margin-bottom: 20px;
+
+    &-title {
+        padding: 20px 10px 0;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &-imgContent {
+        @include vertical-alignX();
+    }
+
+    &-img {
+        width: 16px;
+        margin: 0 0 10px;
+    }
+
+    &-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &-input {
+        width: 100%;
+        padding: 10px 5px 10px 10px;
+        margin: 5px 0;
+        outline: none;
+        color: $dark_grey;
+        border: 1px solid $default_grey;
+    }
+
+    &-btn {
+        width: 100%;
+        height: 30px;
+        margin: 20px 0;
+        background: $xumak_red;
+        color: white;
+        text-transform: uppercase;
+        outline: none;
+        border: 0;
+        cursor: pointer;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    &-placeholder {
+        width: 90%;
+        padding-bottom: 20px;
+        @include vertical-alignX();
+    }
+}
+
+@include media(sm) {
+    .forum {
+        &-title {
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        &-rowInfo {
+            width: 50%;
+            padding: 0 20px;
+        }
+
+        &-rowImage {
+            width: 50%;
+        }
+
+        &-placeholder {
+            padding: 20px;
+            max-width: 305px;
+        }
+    }
+}
+
+@include media(md) {
+    .forum {
+        &-rowImage {
+          
+        }
+    }
+}
