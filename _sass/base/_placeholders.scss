@@ -1,0 +1,20 @@
+@keyframes flex {
+  from {
+    font-style: normal;
+    filter: hue-rotate(0deg);
+  }
+  to {
+    font-style: italic;
+    filter: hue-rotate(360deg);
+  }
+}
+
+.workIt{
+  @include fontSize(32px);
+  text-align: center;
+  height: 60px;
+}
+
+.flex {
+  animation: flex 1s ease-in-out infinite;
+}

@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "citrix-icons";
+  src: url("../assets/fonts/citrix/citrix-icons.eot");
+  src: url("../assets/fonts/citrix/citrix-icons.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/citrix/citrix-icons.woff") format("woff"), url("../assets/fonts/citrix/citrix-icons.ttf") format("truetype"), url("../assets/fonts/citrix/citrix-icons.svg#citrix-icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "ico";
+  src: url("../assets/fonts/ico/icon.eot");
+  /* IE9*/
+  src: url("../assets/fonts/ico/icon.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/ico/icon.woff") format("woff"), url("../assets/fonts/ico/icon.ttf") format("truetype"), url("../assets/fonts/ico/icon.svg#ico") format("svg");
+  /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HurmeGeometricSans3-Bold';
+  src: url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.eot");
+  src: url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.woff2") format("woff2"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.woff") format("woff"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.ttf") format("truetype"), url("../assets/fonts/hurme/HurmeGeometricSans3-Bold.svg#HurmeGeometricSans3-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'UrbanGroteskReBo-Italic';
+  src: url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.eot");
+  src: url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.woff2") format("woff2"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.woff") format("woff"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.ttf") format("truetype"), url("../assets/fonts/grotesk/UrbanGroteskReBo-Italic.svg#UrbanGroteskReBo-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GeorgiaPro-Italic';
+  src: url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.eot");
+  src: url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.woff2") format("woff2"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.woff") format("woff"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.ttf") format("truetype"), url("../assets/fonts/georgia-pro-italic/GeorgiaPro-Italic.svg#GeorgiaPro-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TextaNarrow-Regular';
+  src: url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.eot");
+  src: url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.woff2") format("woff2"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.woff") format("woff"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.ttf") format("truetype"), url("../assets/fonts/textanarrow-regular/TextaNarrow-Regular.svg#TextaNarrow-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Urban-Grotesk-Light';
+  src: url("../assets/fonts/grotesk/Urban Grotesk Light.eot");
+  src: url("../assets/fonts/grotesk/Urban Grotesk Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/grotesk/Urban Grotesk Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'UrbanGroteskLiSe-Regular';
+  src: url("../assets/fonts/grotesk/UrbanGroteskLiSe-Regular.woff") format("woff"), url("../assets/fonts/grotesk/UrbanGroteskLiSe-Regular.ttf") format("truetype"), url("../assets/fonts/grotesk/UrbanGroteskLiSe-Regular.svg#UrbanGroteskLiSe-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@-webkit-keyframes flex {
+  from {
+    font-style: normal;
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg); }
+
+  to {
+    font-style: italic;
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg); } }
+
+@keyframes flex {
+  from {
+    font-style: normal;
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg); }
+
+  to {
+    font-style: italic;
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg); } }
+
+.workIt {
+  font-size: 32px;
+  font-size: 2.28571em;
+  text-align: center;
+  height: 60px; }
+
+.flex {
+  -webkit-animation: flex 1s ease-in-out infinite;
+  animation: flex 1s ease-in-out infinite; }
+
+/* VENDOR - Default fall-backs and external files.
+========================================================================== */
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #ececec;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px; }
+
+input[type=text], input[type=email] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.navbar {
+  background: white; }
+  .navbar-content {
+    height: 50px; }
+  .navbar-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 5%; }
+  .navbar-img {
+    width: 40%;
+    max-width: 150px; }
+
+.content {
+  margin: 0;
+  background: #ececec; }
+  .content-wrapper {
+    width: 90%;
+    margin: 0 auto; }
+  .content-campaignHeading {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 10px 0; }
+  .content-separator {
+    background: #333; }
+  .content-campaignInfo {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    font-style: italic;
+    font-weight: 300;
+    color: #333; }
+
+@media (min-width: 768px) {
+  .content-campaignInfo {
+    font-size: 18px; } }
+
+.forum {
+  margin: 0 auto;
+  width: 90%;
+  background: white;
+  margin-bottom: 20px; }
+  .forum-title {
+    padding: 20px 10px 0;
+    font-weight: 500;
+    text-align: center; }
+  .forum-imgContent {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .forum-img {
+    width: 16px;
+    margin: 0 0 10px; }
+  .forum-form {
+    width: 90%;
+    margin: 0 auto; }
+  .forum-input {
+    width: 100%;
+    padding: 10px 5px 10px 10px;
+    margin: 5px 0;
+    outline: none;
+    color: #333;
+    border: 1px solid #eee; }
+  .forum-btn {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    background: #ec0928;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .forum-placeholder {
+    width: 90%;
+    padding-bottom: 20px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+@media (min-width: 768px) {
+  .forum-title {
+    padding: 0;
+    margin-top: 20px; }
+  .forum-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
+  .forum-rowInfo {
+    width: 50%;
+    padding: 0 20px; }
+  .forum-rowImage {
+    width: 50%; }
+  .forum-placeholder {
+    padding: 20px;
+    max-width: 305px; } }
+
+.footer-top {
+  background-color: #ec0928; }
+  .footer-top ul {
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+.footer-botton {
+  background-color: #13426a;
+  color: #7188a3;
+  font-family: 'TextaNarrow-Regular';
+  padding: 10px; }
+  .footer-botton p {
+    margin: 0;
+    text-align: center; }
+  .footer-botton a {
+    color: #7188a3; }
+  .footer-botton ul {
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center; }
+    .footer-botton ul li {
+      display: inline;
+      margin-left: 20px; }
+.footer-xumakLogo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px; }
+.footer-partner {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px; }
+.footer-socialList {
+  margin: 0 auto; }
+  .footer-socialList li {
+    display: inline-block;
+    margin: 20px 10px 40px; }
+.footer-bottonTerms a {
+  text-decoration: none; }

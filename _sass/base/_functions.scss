@@ -1,1 +1,9 @@
+@function calculateEm($size) {
+  $emSize: $size / $fontBase;
+  @return $emSize * 1em;
+}
 
+@mixin fontSize($size) {
+  font-size: $size;
+  font-size: calculateEm($size);
+}

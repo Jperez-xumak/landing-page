@@ -1,0 +1,18 @@
+.navbar {
+  background: white;
+
+  &-content {
+    height: 50px;
+  }
+
+  &-logo {
+    @include vertical-alignY();
+    padding-left: 5%;
+  }
+
+  &-img {
+    width: 40%;
+    max-width: 150px;
+  }
+
+}
